@@ -1,0 +1,5 @@
+config main
+	option 'port' '8443'
+	option 'hid' '/dev/ttyUSB0'
+	option 'video' '/dev/video0'
+	option image_name 'ziguayungui/pikvm-docker-x86:v3.308'
